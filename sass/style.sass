@@ -1,0 +1,109 @@
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+html
+    font-size: 62,5%
+    scroll-behavior: smooth
+
+body
+    position: relative
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem
+
+
+.hero-shadow
+    position: absolute
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,.6)
+    z-index: -1
+.gold-color
+    color: rgb(228, 161, 60)
+
+.scroll-fix::before
+    display: block
+    margin-top: -3.5rem
+    height: 3.5rem
+    content: ''
+    
+nav
+    border-bottom: 1px solid grey
+    .navbar-brand
+        font-weight: bold
+        font-size: 1.5rem
+        i
+            color: red
+            font-size: 1.5rem
+
+    .navbar-nav, .fa-bars
+        font-size: 1.7rem
+        text-transform: uppercase
+
+    .fa-bars
+        padding: 0.3rem 0.8rem
+    .navbar-toggler:focus
+        box-shadow: 0px 0px .2rem .25rem rgb(228, 161, 60)
+header
+    position: relative
+    height: 100vh
+    // width: 100vw
+    background-image: url(/img/coupletuo.jpg)
+    background-position: center
+    background-size: cover
+    z-index: 0
+    overflow-x: hidden
+    .hero-image
+        .header-text
+            font-size: 1.2rem
+        i
+            color: red
+        .btn
+            padding: 0.5rem 6rem
+
+    // ABOUT US 
+main
+    #aboutus
+        .about-boxes
+             h3
+                font-size: 2rem
+                font-weight: bold
+                text-transform: uppercase
+        .about-icon
+            font-size: 2.5rem
+        .accordion
+            .accordion-button
+                font-size: 1.5rem
+                background-color: #fff
+            .accordion-button:focus
+                box-shadow: 0px 0px .5rem .25rem rgb(228, 161, 60)
+                border-color: rgb(228, 161, 60)
+
+    #team
+        .container
+            overflow-x: hidden
+            padding: 3rem 0
+            .card-img-top
+               height: 300px
+               object-fit: cover
+    // kontakt           
+    #contact
+        .container
+            overflow-x: hidden
+            .contact-info
+                .adress
+                    p
+                        i
+
+                            .fas
+                                margin-right: .5rem
+                                font-size: 2rem
+                                font-weight: bold
+        h2
+            font-weight: bold
+            text-transform: uppercase
+footer
+    p
+        margin: 0

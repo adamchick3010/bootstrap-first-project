@@ -1,0 +1,139 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62,5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+}
+
+.hero-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+.gold-color {
+  color: #e4a13c;
+}
+
+.scroll-fix::before {
+  display: block;
+  margin-top: -3.5rem;
+  height: 3.5rem;
+  content: '';
+}
+
+nav {
+  border-bottom: 1px solid grey;
+}
+
+nav .navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+nav .navbar-brand i {
+  color: red;
+  font-size: 1.5rem;
+}
+
+nav .navbar-nav, nav .fa-bars {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+
+nav .fa-bars {
+  padding: 0.3rem 0.8rem;
+}
+
+nav .navbar-toggler:focus {
+  -webkit-box-shadow: 0px 0px 0.2rem 0.25rem #e4a13c;
+          box-shadow: 0px 0px 0.2rem 0.25rem #e4a13c;
+}
+
+header {
+  position: relative;
+  height: 100vh;
+  background-image: url(/img/coupletuo.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+  overflow-x: hidden;
+}
+
+header .hero-image .header-text {
+  font-size: 1.2rem;
+}
+
+header .hero-image i {
+  color: red;
+}
+
+header .hero-image .btn {
+  padding: 0.5rem 6rem;
+}
+
+main #aboutus .about-boxes h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+main #aboutus .about-icon {
+  font-size: 2.5rem;
+}
+
+main #aboutus .accordion .accordion-button {
+  font-size: 1.5rem;
+  background-color: #fff;
+}
+
+main #aboutus .accordion .accordion-button:focus {
+  -webkit-box-shadow: 0px 0px 0.5rem 0.25rem #e4a13c;
+          box-shadow: 0px 0px 0.5rem 0.25rem #e4a13c;
+  border-color: #e4a13c;
+}
+
+main #team .container {
+  overflow-x: hidden;
+  padding: 3rem 0;
+}
+
+main #team .container .card-img-top {
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main #contact .container {
+  overflow-x: hidden;
+}
+
+main #contact .container .contact-info .adress p i .fas {
+  margin-right: .5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main #contact h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer p {
+  margin: 0;
+}
+/*# sourceMappingURL=style.css.map */
